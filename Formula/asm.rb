@@ -4,14 +4,14 @@ class Asm < Formula
   license "Apache-2.0"
 
   if OS.mac?
-    url "https://github.com/Thinkscape/asm/releases/download/v0.3.0/asm-macos-universal.tar.gz"
-    sha256 "785e05b7e50789768225ef27fcc9d674ae8b00fa90e69feb9393ca07e529615f"
+    url "https://github.com/Thinkscape/asm/releases/download/v0.4.0/asm-macos-universal.tar.gz"
+    sha256 "99d1d0bd9aca7d56ecfa60d6f1e029d1a0911f68792eeb25c69c2901f477ab96"
   elsif Hardware::CPU.arm?
-    url "https://github.com/Thinkscape/asm/releases/download/v0.3.0/asm-linux-aarch64.tar.gz"
-    sha256 "3d4dcf99222c12cdc8a3fc0ec5f22f3774c2b0131b4face81dfdc02e4af20db2"
+    url "https://github.com/Thinkscape/asm/releases/download/v0.4.0/asm-linux-aarch64.tar.gz"
+    sha256 "b37d7ffc3bd0ebb7fde7461edf7527d4369ea1dd79a13a549fa49b7eafd8b8f2"
   else
-    url "https://github.com/Thinkscape/asm/releases/download/v0.3.0/asm-linux-x86_64.tar.gz"
-    sha256 "8593ba08eeb0d690be93c0b925c8b627ce122de6e1afb3dcd7f3273c4932cb76"
+    url "https://github.com/Thinkscape/asm/releases/download/v0.4.0/asm-linux-x86_64.tar.gz"
+    sha256 "6e5e6cad4b104c026e2d506a036dc0767acfb3fb545bc9d21137080a4ec03989"
   end
 
   def install
