@@ -1,6 +1,6 @@
 cask "asm-manager" do
-  version "0.7.0"
-  sha256 "a5e8768875aae82eec412f98bf43de18e0a0658063b98b2f53a59c7fe4583b70"
+  version "0.8.0"
+  sha256 "cef74bebb7d626d5b631490cc634492ebc4154db4a2e19792497523c03d654d4"
 
   url "https://github.com/Thinkscape/asm/releases/download/v#{version}/Agents-Secrets-Manager-macos.zip"
   name "Agents Secrets Manager"
